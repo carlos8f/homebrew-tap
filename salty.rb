@@ -8,6 +8,7 @@ class Salty < Formula
   depends_on "node"
 
   def install
-    bin.install "salty"
+    prefix.install Dir["*"]
+    ln_sf "#{prefix}/salty", "#{HOMEBREW_PREFIX}/bin/salty"
   end
 end
