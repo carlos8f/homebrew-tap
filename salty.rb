@@ -1,9 +1,9 @@
 class Salty < Formula
   desc "Alternative public key encryption using NaCl"
   homepage "https://github.com/carlos8f/salty"
-  url "https://github.com/carlos8f/salty/archive/v4.0.3.tar.gz"
-  version "4.0.3"
-  sha256 "62a6ea7100c7301089e95f815853ce66fed5aec2e805cf162f318bc5e9466db1"
+  url "https://github.com/carlos8f/salty/archive/v4.1.0.tar.gz"
+  version "4.1.0"
+  sha256 "3eb6e0bcb1461af2aa88d81c9be5c69b1b0069e40a30abb90c11420c88504126"
 
   depends_on "node"
 
